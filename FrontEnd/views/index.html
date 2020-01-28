@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<meta charset="utf-8">
+
+    <title>Social Navigation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+</head>
+
+
+<body>
+    <div class="row">
+      <div class="col-12" align=center>
+        <form id="nick" class="form-signin">
+          <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+          <h1 class="h3 mb-3 font-weight-normal">CrisChat</h1>
+          <label for="name">Ingrese su Nick</label>
+          <input type="Name" id="idNick" class="form-control" placeholder="Ingrese su nick" required="" autofocus="">
+          <label for="foto" >Suba su imagen aqui</label>
+          <input type="file" id="foto" class="form-control" >
+          
+          
+        </form>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6" align=center>
+          <form class="form-signin"  >
+              <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+              <h1 class="h3 mb-3 font-weight-normal">Salas creadas</h1>
+              <select id="salasSelect">
+                
+              </select>
+              <button id="ingresarSala" class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+            </form>
+      </div>
+      <div class="col-6" align=center>
+          <form class="form-signin" >
+              <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+              <h1 class="h3 mb-3 font-weight-normal">Crear salas</h1>
+              <label id="idIngresarNombre" for="name" class="sr-only">Ingrese nombre de sala</label>
+              <input type="Name" id="ingresarNombre" class="form-control" placeholder="Ingrese nombre de sala" autofocus="">
+              <button id="crearSala" class="btn btn-lg btn-primary btn-block" type="submit">Crear</button>
+          </form>
+      </div>
+      
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="http://localhost:3000/index.js"></script>
+</body>
+</html>
+

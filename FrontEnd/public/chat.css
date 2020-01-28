@@ -1,0 +1,5 @@
+#sala{
+  border: 5px solid black;
+  height: 500px;
+  overflow: scroll;
+}
